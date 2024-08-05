@@ -1157,6 +1157,10 @@ video {
     margin-right: 0.75rem;
   }
 
+  .md\:mr-2 {
+    margin-right: 0.5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1211,6 +1215,10 @@ video {
 
   .lg\:left-5 {
     left: 1.25rem;
+  }
+
+  .lg\:mr-2 {
+    margin-right: 0.5rem;
   }
 
   .lg\:block {

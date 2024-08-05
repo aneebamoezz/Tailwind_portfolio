@@ -18,13 +18,13 @@
         <!-- navbar -->
         <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
             <div class="container mx-auto py-5 flex items-center justify-between">
-                <div class="flex items-center gap-2">
+                <div class="flex items-center gap-2 ml-2">
                     <img class="w-8" src="images/logo.png" alt="" />
                     <span class="text-2xl font-bold text-indigo-900 dark:text-white">Portwind.</span>
                 </div>
                 <ul class="hidden md:flex space-x-10 text-gray-600 dark:text-gray-100 font-bold text-sm uppercase">
                     <li class="hover:text-gray-500">
-                        <a href="#">homepage</a>
+                        <a href="#">home</a>
                     </li>
                     <li class="hover:text-gray-500">
                         <a href="#about">about me</a>
@@ -40,27 +40,27 @@
                     </li>
                 </ul>
                 <img id="moon" src="images/moon.png" class="hidden md:block w-5 cursor-pointer" alt="" />
-                <div id="hamburger" class="space-y-1 bg-indigo-900 rounded-full p-2 md:hidden cursor-pointer z-20">
+                <div id="hamburger" class="mr-2 space-y-1 bg-indigo-900 rounded-full p-2 md:hidden cursor-pointer z-20">
                     <div class="w-4 h-0.5 bg-white"></div>
                     <div class="w-4 h-0.5 bg-white"></div>
                     <div class="w-4 h-0.5 bg-white"></div>
                 </div>
                 <ul id="menu"
-                    class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                    class="uppercase hidden bg-indigo-300 absolute left-0 top-0 w-full p-10 space-y-10 text-white text-center">
                     <li>
-                        <a id="hLink" href="#">homepage</a>
+                        <a id="hLink" class="text-indigo-900 font-semibold" href="#">home</a>
                     </li>
                     <li>
-                        <a id="hLink" href="#about">about me</a>
+                        <a id="hLink" class="text-indigo-900 font-semibold" href="#about">about me</a>
                     </li>
                     <li>
-                        <a id="hLink" href="#services">services</a>
+                        <a id="hLink" class="text-indigo-900 font-semibold" href="#services">services</a>
                     </li>
                     <li>
-                        <a id="hLink" href="#works">works</a>
+                        <a id="hLink" class="text-indigo-900 font-semibold" href="#works">works</a>
                     </li>
                     <li>
-                        <a id="hLink" href="#contact">contact</a>
+                        <a id="hLink" class="text-indigo-900 font-semibold" href="#contact">contact</a>
                     </li>
                 </ul>
             </div>
@@ -127,27 +127,27 @@
             <div class="flex flex-col gap-3 items-center">
                 <h1 class="text-indigo-600 font-bold uppercase">services</h1>
                 <h1 class="text-3xl uppercase dark:text-white">what do I offer?</h1>
-                <p class="w-1/2 text-center text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto blanditiis qui assumenda asperiores
+                <p class="md:w-2/2 lg:w-1/2 text-center text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto blanditiis qui assumenda asperiores
                     omnis ratione doloribus unde accusantium, deserunt molestias!</p>
             </div>
             <!--bottom-->
-            <div class="sm:p-0 flex flex-wrap p-5 justify-between">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 p-4">
                 <!--Cards-->
-                <div class="w-full md:w-4/12 border rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
+                <div class="border rounded-lg p-5 flex flex-col gap-3">
                     <img class="w-10" src="images/icon.png" alt="">
                     <h1 class="font-medium text-lg uppercase dark:text-white">ux / ui design</h1>
                     <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eveniet officiis ipsa a nihil veritatis.</p>
                     <a class="text-indigo-600 font-semibold text-md" href="#">Read More</a>
                 </div>
                 <!--Cards-->
-                <div class="w-full md:w-4/12 border rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
+                <div class="border rounded-lg p-5 flex flex-col gap-3">
                     <img class="w-10" src="images/icon.png" alt="">
                     <h1 class="font-medium text-lg uppercase dark:text-white">ux / ui design</h1>
                     <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eveniet officiis ipsa a nihil veritatis.</p>
                     <a class="text-indigo-600 font-semibold text-md" href="#">Read More</a>
                 </div>
                 <!--Cards-->
-                <div class="w-full md:w-4/12 border rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
+                <div class="border rounded-lg p-5 flex flex-col gap-3">
                     <img class="w-10" src="images/icon.png" alt="">
                     <h1 class="font-medium text-lg uppercase dark:text-white">ux / ui design</h1>
                     <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eveniet officiis ipsa a nihil veritatis.</p>
@@ -163,41 +163,33 @@
             <div class="flex flex-col gap-3 items-center">
                 <h1 class="text-indigo-600 font-bold uppercase">portfolio</h1>
                 <h1 class="text-3xl uppercase dark:text-white">works & projects</h1>
-                <p class="w-1/2 text-center text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto blanditiis qui assumenda asperiores
+                <p class="md:w-2/2 lg:w-1/2  text-center text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto blanditiis qui assumenda asperiores
                     omnis ratione doloribus unde accusantium, deserunt molestias!</p>
             </div>
             <!--bottom-->
-            <div class="sm:p-0 flex flex-wrap p-5 justify-between">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 p-4">
                 <!--Cards-->
-                <div class="w-full md:w-5/12 lg:w-1/5 rounded-lg p-5 my-3 md:my-10 m-1">
+                <div class="shadow-xl flex flex-col gap-3">
                     <img src="images/item.png" alt="">
                 </div>
                 <!--Cards-->
-                <div class="w-full md:w-5/12 lg:w-1/5 rounded-lg p-5 my-3 md:my-10 m-1">
+                <div class="shadow-xl flex flex-col gap-3">
                     <img src="images/item.png" alt="">
                 </div>
                 <!--Cards-->
-                <div class="w-full md:w-5/12 lg:w-1/5 rounded-lg p-5 my-3 md:my-10 m-1">
+                <div class="shadow-xl flex flex-col gap-3">
                     <img src="images/item.png" alt="">
                 </div>
                 <!--Cards-->
-                <div class="w-full md:w-5/12 lg:w-1/5 rounded-lg p-5 my-3 md:my-10 m-1">
+                <div class="shadow-xl flex flex-col gap-3">
                     <img src="images/item.png" alt="">
                 </div>
                 <!--Cards-->
-                <div class="w-full md:w-5/12 lg:w-1/5 rounded-lg p-5 my-3 md:my-10 m-1">
+                <div class="shadow-xl flex flex-col gap-3">
                     <img src="images/item.png" alt="">
                 </div>
                 <!--Cards-->
-                <div class="w-full md:w-5/12 lg:w-1/5 rounded-lg p-5 my-3 md:my-10 m-1">
-                    <img src="images/item.png" alt="">
-                </div>
-                <!--Cards-->
-                <div class="w-full md:w-5/12 lg:w-1/5 rounded-lg p-5 my-3 md:my-10 m-1">
-                    <img src="images/item.png" alt="">
-                </div>
-                <!--Cards-->
-                <div class="w-full md:w-5/12 lg:w-1/5 rounded-lg p-5 my-3 md:my-10 m-1">
+                <div class="shadow-xl flex flex-col gap-3">
                     <img src="images/item.png" alt="">
                 </div>
             </div>
